@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: main-app
+eureka:
+  instance:
+    appname: main-app
+    instance-id: main-app
+    fetch-registry: true
+    register-with-eureka: true    
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+
+server:
+  port: 8001
+ribbon: 
+  ReadTimeout: "600000"
+  ConnectTimeout: "600000"

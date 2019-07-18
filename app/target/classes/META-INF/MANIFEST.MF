@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: app
+Implementation-Version: 2.0.5.RELEASE
+Built-By: mindzen
+Implementation-Vendor-Id: com.Main
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/app
+Created-By: Maven Integration for Eclipse
+

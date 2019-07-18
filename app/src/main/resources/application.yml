@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: second-app
+server:
+  port: 8091
+#  eureka:
+#    enabled: false
+
+eureka:
+  instance:
+    appname: second-app
+    instance-id: secondapp
+    fetch-registry: true
+    register-with-eureka: true    
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
